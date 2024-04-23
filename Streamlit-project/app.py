@@ -5,8 +5,7 @@ from diffusers.utils import export_to_video
 import imageio
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-import numpy as np
-import cv2
+
 
 # Function to generate and display video
 def generate_and_display_video(prompt, video_quality, video_duration_seconds):
